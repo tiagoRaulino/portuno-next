@@ -5,8 +5,9 @@ const app = () => {
   return (
     <div>
       <Navbar/>
-      <h1>Hello World</h1>
-      <List/>
+      <div className="container col-md-4">
+        <List/>
+      </div>
     </div>
   )
 }
